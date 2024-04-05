@@ -1,0 +1,151 @@
+* {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.header {
+	display: flex;
+	width: 100%;
+	position: absolute;
+	justify-content: space-between;
+}
+
+.header #logo {
+ 	width: 20%;
+ 	text-align: center;
+ 	padding-top: 10px;
+}
+
+.header #logo .fas.fa-laptop{
+	font-size: 30px;
+	color: white;
+}
+
+.header .menu {
+	width: 100%;
+}
+
+.header .menu ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header .menu ul li {
+    padding: 10px 20px 10px 10px;
+}
+
+.header .menu ul a {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.header .menu ul a:hover {
+	color: coral;
+}
+
+#phone {
+ 	padding-top: 10px;
+    width: 20%;
+    text-align: center;
+}
+
+#phone p {
+	color: white;
+	font-weight: bold;
+}
+
+@media screen and (max-width:800px) {
+	.header {
+		display: flex;
+		flex-direction: column;
+		background: black;
+	}
+
+	.header .menu {
+		display: flex;
+		justify-content: center;
+	}
+
+	.header #logo {
+		width: 100%;
+	}
+
+	.header #phone {
+		width: 100%;
+	}
+}
+
+.main-block {
+	position: relative;
+	background-image: url("../img/main-pic.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 550px;
+}
+
+.content {
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	text-align: center;
+}
+
+.content h1 {
+	color: white;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.content a {
+	color: white;
+	display: block;
+	border: 1px solid white;
+	border-radius: 20px;
+	width: 110px;
+	height: 35px;
+	padding-top: 4px;
+	margin-left: 40%;
+	margin-top: 20px;
+}
+
+.content a:hover {
+	background: black;
+	color: white;
+	border: none;
+}
+
+@media screen and (max-width: 800px) {
+	.content {	
+		top: 45%;
+		left: 15%;		
+	}
+
+	.content h1 {		
+		font-size: 40px;		
+	}	
+
+	.content a {
+		margin-left: 35%;
+		margin-top: 20px;
+	}	
+}
+
+@media screen and (max-width: 490px) {
+	.content {	
+		top: 45%;
+		left: 15%;		
+	}
+
+	.content h1 {		
+		font-size: 35px;		
+	}
+
+	.content a {
+		margin-left: 35%;
+		margin-top: 20px;
+	}	
+}

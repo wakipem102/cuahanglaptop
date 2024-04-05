@@ -1,0 +1,33 @@
+#myInput {
+    width: 100%;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 6.5px 0px;
+    border-color: black;
+    padding-left: 10px;
+}
+
+.fliter-dropdown {
+    position: relative;
+}
+
+.fliter-dropdown-content {
+    background-color: #f6f6f6;
+    border-radius: 8px;
+}
+
+#myDropdown a {
+    color: black;
+    padding: 8px 13px;
+    text-decoration: none;
+    border-radius: 8px;
+    display: none;
+}
+
+.fliter-dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.show {
+    display: block;
+}
